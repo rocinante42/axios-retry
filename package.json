@@ -22,6 +22,7 @@
     "release": "npm version -m \"New version: %s\"",
     "postrelease": "npm run push && npm publish",
     "push": "git push origin master && git push origin --tags",
+    "preinstall": "npm install",
     "postinstall": "npm run build"
   },
   "dependencies": {
