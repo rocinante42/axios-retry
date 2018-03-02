@@ -21,9 +21,7 @@
     "prerelease": "npm run build",
     "release": "npm version -m \"New version: %s\"",
     "postrelease": "npm run push && npm publish",
-    "push": "git push origin master && git push origin --tags",
-    "preinstall": "npm install",
-    "postinstall": "npm run build"
+    "push": "git push origin master && git push origin --tags"
   },
   "dependencies": {
     "is-retry-allowed": "^1.1.0"
